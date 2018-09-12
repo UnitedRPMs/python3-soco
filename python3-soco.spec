@@ -1,5 +1,5 @@
 Name:           python3-soco
-Version:        0.15
+Version:        0.16
 Release:        1%{?dist}
 Summary:        SoCo (Sonos Controller) is a simple library to control Sonos speakers
 License:        MIT
@@ -36,6 +36,9 @@ programmatically control Sonos speakers.
 %{python3_sitelib}/soco-%{version}-py*.egg-info
 
 %changelog
+
+* Wed Sep 12 2018 David Va <davidva AT tuta DOT io> 0.16-1 
+- Updated to 0.16
 
 * Thu Aug 02 2018 David Va <davidva AT tuta DOT io> 0.15-1 
 - Initial build
